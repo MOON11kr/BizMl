@@ -11,7 +11,11 @@
 - **Interactive Dashboards**: Create visualizations for sales and churn analysis.
 
 ---
+Single Command to Install All Dependencies
 
+pip install pandas scikit-learn prophet statsmodels reportlab openpyxl plotly dash
+
+---
 ## Installation
 
 You can install BizML using pip:
@@ -19,7 +23,7 @@ You can install BizML using pip:
 ```bash
 pip install BizML
 
-Customer Churn Prediction
+#Customer Churn Prediction
 
 from BizML import CustomerChurn
 
@@ -37,7 +41,8 @@ predictions = churn_model.predict(new_data)
 print("Churn Predictions:", predictions)
 
 
-Sales Forecasting
+
+#Sales Forecasting
 
 from BizML import SalesForecast
 
